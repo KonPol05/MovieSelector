@@ -142,14 +142,14 @@ namespace MovieSelector2._0
         
         private void AddChoices(int f)
         {
-            DialogResult result = MessageBox.Show("Do you want to include movies you haven't watched in the random choice?", "Confirmation", MessageBoxButtons.YesNo), result1, return2;
+            DialogResult result = MessageBox.Show("Do you want to include movies you have {Path.GetFileName(Movies[f]).ToLower()} in the random choice?", "Confirmation", MessageBoxButtons.YesNo), result1, return2;
             if (result == DialogResult.Yes)
             {
             op1:
-                result1 = MessageBox.Show("Do you want to include all movies you haven't watched in the random choice?", "Confirmation", MessageBoxButtons.YesNoCancel);
+                result1 = MessageBox.Show($"Do you want to include all movies you have {Path.GetFileName(Movies[f]).ToLower()} in the random choice?", "Confirmation", MessageBoxButtons.YesNoCancel);
                 if (result1 == DialogResult.Cancel)
                 {
-                    return2 = MessageBox.Show("Are you sure you want to cancel importing not watched movies?", "Confirmation", MessageBoxButtons.YesNo);
+                    return2 = MessageBox.Show($"Are you sure you want to cancel importing {Path.GetFileName(Movies[f]).ToLower()} movies?", "Confirmation", MessageBoxButtons.YesNo);
                     if (return2 == DialogResult.No)
                     {
                         goto op1;
@@ -160,7 +160,7 @@ namespace MovieSelector2._0
                     DialogResult dr=DialogResult.Yes;
                     if (Directory.GetFiles(Movies[f]).Length ==0 )
                     {
-                        dr = MessageBox.Show($"You don't have {Path.GetFileName(Movies[f])} movies imported.\n Would you like to add some?", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        dr = MessageBox.Show($"You don't have {Path.GetFileName(Movies[f]).ToLower()} movies imported.\n Would you like to add some?", "Error", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (dr == DialogResult.Yes)
                         {
                             FileCopy(f);
