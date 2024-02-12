@@ -1,0 +1,13 @@
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\bin\Debug\MovieSelector2.0.exe.config
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\bin\Debug\MovieSelector2.0.exe
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\bin\Debug\MovieSelector2.0.pdb
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.csproj.AssemblyReference.cache
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2._0.Properties.Resources.resources
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.csproj.GenerateResource.cache
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.csproj.CoreCompileInputs.cache
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.exe
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.pdb
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2._0.Form1.resources
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2._0.Form2.resources
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\konpo\Documents\C#\MovieSelector2.0\MovieSelector2.0\obj\Debug\MovieSelector2.0.csproj.ResolveComReference.cache
